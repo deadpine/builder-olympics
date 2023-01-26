@@ -59,7 +59,17 @@
     
     ::-moz-selection { color: #2d2d2d; background: #FFCCFF; }
     ::selection { color: #2d2d2d; background: #FFCCFF; }
-      
+    
+    /* Mobile */
+    @media only screen and (max-device-width: 736px) { 
+      body { 
+        padding: 0.25rem;
+        height: 95vh;
+      }
+      p {
+        word-break: break-all;
+      }
+    }
   </style>
 </head>
 
